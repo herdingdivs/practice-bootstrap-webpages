@@ -1,0 +1,251 @@
+body {
+    background-color: #e8e8ee;
+}
+
+#page {
+    margin: auto;
+    width: 1180px;
+    background-color: white;
+    font-family: cabin, sans-serif;
+}
+
+.header {
+    background: url("img/header_background.jpg") no-repeat top center;
+    height: 624px;
+    position: relative;
+    color: white;
+}
+
+.header .logo {
+    left: 128px;
+    top: 71px;
+    position: absolute;
+}
+
+nav {
+    position: absolute;
+    right: 100px;
+    top: 71px;
+}
+
+nav li {
+    width: 100px;
+    float: left;
+    color: white;
+    list-style-type: none;
+}
+
+.hamburger {
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    width: 19px;
+    height: 10px;
+}
+
+.hamburger div {
+    border-top: 2px solid white;
+    margin-top: 4px;
+}
+
+.headerText {
+    width: 818px;
+    position: absolute;
+    left: 153px;
+    bottom: 90px;
+}
+
+h1 {
+    line-height: 150%;
+}
+
+#content {
+    width: 925px;
+    margin: auto;
+}
+
+.box {
+    color: white;
+    background-color: #25aa99;
+    border-radius: 5px;
+    position: relative;
+}
+
+.box p {
+    padding: 12px;
+    font-weight: bold;
+}
+
+.box p img {
+    position: absolute;
+    right: 18px;
+    top: 17px;
+}
+
+.videos {
+    position: relative;
+    float: left;
+    margin-top: 50px;
+    width: 940px;
+}
+
+.videos h1 {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+.videos h5 {
+    color: #25aa99;
+    font-size: 15px;
+    margin: 5px 0;
+}
+
+.videos p {
+    margin: 5px 0;
+    color: rgba(128, 128, 128, 0.53);
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+.video {
+    float: left;
+    width: 25%;
+}
+
+.graph {
+    margin: 375px auto;
+}
+
+footer {
+    width: 1180px;
+}
+
+.topFooter {
+    height: 120px;
+    background-color: #25aa99;
+    color: white;
+    margin-top: 100px;
+}
+
+.topFooter p {
+    float: left;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 53px;
+    width: 33%;
+    height: 51px;
+    text-align: right;
+}
+
+.emailForm {
+    float: left;
+    margin-top: 35px;
+}
+
+.image {
+    float: left;
+    padding: 25px;
+}
+
+input[type=email] {
+    background: url("img/subscription_email_icon.gif") white no-repeat 15px;
+    height: 45px;
+    width: 281px;
+    border-radius: 6px;
+}
+
+input[type=submit] {
+    color: white;
+    font-size: 15px;
+    font-weight: bolder;
+    background-color: #dac26c;
+    height: 51px;
+    width: 175px;
+    border-radius: 6px;
+    margin-left: 15px;
+}
+
+input[placeholder] {
+    font-size: 15px;
+    font-weight: bolder;
+    padding-left: 50px;
+    margin-left: 15px;
+}
+
+.bottomFooter {
+    position: relative;
+    height: 300px;
+    padding-top: 35px;
+    background-color: rgba(237, 242, 241, 0.68);
+    color: white;
+}
+
+.bottomFooter .logo {
+    left: 110px;
+    bottom: 185px;
+    position: absolute;
+}
+
+.column {
+    float: left;
+    width: 33%;
+}
+
+.services h4 {
+    color: black;
+    font-weight: bolder;
+    font-size: 17px;
+    height: 10px;
+    margin-top: 35px;
+}
+
+.services {
+    float: right;
+    margin-right: 35px;
+    color: gray;
+    font-weight: bolder;
+    font-size: 17px;
+}
+
+.services ul {
+    padding: 0;
+    margin: 0;
+}
+
+.column li {
+    color: rgba(128, 128, 128, 0.53);
+    list-style-type: none;
+    padding-bottom: 11px;
+}
+
+.column img {
+    margin: 20px 0 0 40px;
+}
+
+.copyright {
+    color: black;
+    font-weight: bolder;
+    font-size: 17px;
+    margin-top: 30px;
+}
+
+address {
+    color: rgba(128, 128, 128, 0.53);
+    font-weight: bolder;
+    font-size: 17px;
+    font-style: normal;
+}
+
+address p {
+    height: 5px;
+}
+
+button[name=button] {
+    height: 35px;
+    width: 100px;
+    color: white;
+    background-color: #65abcf;
+    border-radius: 6px;
+    margin-top: 45px;
+}
+
+
