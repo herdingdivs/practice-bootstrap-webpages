@@ -1,0 +1,238 @@
+body {
+    background-color: #fff;
+    font-family: sans-serif;
+    font-size: 13px;
+    color: green;
+}
+
+.altColor {
+    color: red;
+}
+
+#specials {
+    border: 4px solid red;
+    border-radius: 10px;
+    max-width: 700px;
+    box-sizing: border-box;
+    padding: 0 5px;
+}
+
+.specialDishes thead td {
+    color: red;
+    padding: 5px;
+    padding-right: 0;
+    padding-left: 13px;
+    font-size: 9px;
+    vertical-align: bottom;
+    padding-bottom: 0px;
+}
+
+.specialDishes table {
+    border-spacing: 0;
+}
+
+.specialDishes thead td:nth-child(3) {
+    font-size: 19px;
+    width: 279px;
+    padding: 0;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.specialDishes td:nth-child(4), .specialDishes td:nth-child(5), .specialDishes td:nth-child(6), .specialDishes td:nth-child(7){
+    text-align: right;
+}
+
+.specialDishes span.priceConnector {
+    width: 100%;
+    height: 10px;
+    position: absolute;
+    border-bottom: 2px dotted green;
+    left: 0;
+    z-index: -1;
+}
+
+.specialDishes span.item {
+    width: 100%;
+}
+
+.specialDishes span.itemName {
+    position: absolute;
+    background-color: white;
+    padding-left: 0;
+}
+
+.lunchSpecials h1 {
+    text-transform: uppercase;
+    color: red;
+}
+
+.lunchSpecials h1, .menuCategory h2 {
+    font-style: italic;
+    font-family: sans-serif;
+    text-align: center;
+    margin-bottom: -1px;
+}
+
+.lunchSpecials p {
+    color: red;
+    text-align: center;
+    font-size: 11px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.menuCategory h2 {
+    text-transform: uppercase;
+    color: red;
+}
+
+.warning {
+    font-variant: small-caps;
+    color: red;
+    font-weight: bold;
+    font-size: 16px
+}
+
+.solution {
+    font-style: italic;
+}
+
+.labels {
+    color: red;
+    text-align: center;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.spicy {
+    color: red;
+    font-weight: bold;
+}
+
+div.lunchSpecials {
+    font-weight: bold;
+}
+
+.col {
+    float: left;
+    width: 350px;
+}
+
+div.hours {
+    text-align: center;
+    margin-top: 5px;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.disclaimer {
+    text-align: center;
+    margin-top: 10px;
+}
+
+div.disclaimer .warning {
+    font-size: 17px;
+    background: url(pepper.gif) 60px 6px no-repeat;
+    background-color: white;
+    display: block;
+    font-stretch: semi-condensed;
+}
+
+div.disclaimer span.solution {
+    font-size: 11px;
+    display: block;
+}
+
+span.itemNumber, span.itemName, span.itemPrice {
+    display: inline-block;
+}
+
+span.itemNumber {
+    width: 40px;
+    text-align: right;
+}
+
+div.spicy span.itemName {
+    background: url(pepper.gif) 0px 3px no-repeat;
+    background-color: white;
+    padding-left: 21px;
+}
+
+span.item {
+    position: relative;
+    display: inline-block;
+    width: 248px;
+    height: 12px;
+}
+
+span.priceConnector {
+    width: 275px;
+    height: 10px;
+    position: absolute;
+    border-bottom: 2px dotted green;
+    z-index: -1;
+}
+
+span.itemName {
+    position: absolute;
+    background-color: white;
+    padding-left: 23px;
+    padding-right: 3px;
+}
+
+.spicy span.priceConnector{
+    border-bottom: 2px dotted red;
+}
+
+.small, .large {
+    width: 25px;
+    display: inline-block;
+    text-align: right;
+}
+
+span.sides {
+    width: 237px;
+    display: inline-block;
+    margin-left: 57px;
+    margin-right: 0px;
+}
+span.itemPrice {
+    background-color: white;
+
+}
+
+div.lunchSpecials span {      /*selects all spans within any div with the class of lunchSpecials*/
+    font-size: 14px;
+    font-weight: bold;
+}
+
+div.appetizers span {
+    font-size: 12px;
+    font-weight: normal;
+}
+
+span.itemMultiprice {
+    position: relative;
+    display: inline-block;
+    width: 184px;
+    height: 12px;
+}
+
+div.menuCategory {
+    font-size: 12px;
+}
+
+div.separator {
+    border-top: 8px solid red;
+    width: 320px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+div.appetizers .itemDescription {
+    display: block;
+    font-size: 10px;
+    margin-left: 65px;
+    margin-right: 25px;
+}
